@@ -11,6 +11,7 @@ private int age;
 private int hp = 100;
 private int bloodLoss =0;
 private int toxicity = 0;
+//Citizen Class
 public Citizen(Address location, String nationalID, String name, int age){
 this.location = location;
 this.nationalID = nationalID;
