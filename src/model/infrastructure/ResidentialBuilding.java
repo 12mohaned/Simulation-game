@@ -1,6 +1,6 @@
 package model.infrastructure;
 import java.util.ArrayList;
-
+//Buildings in the Game
 import model.disasters.Disaster;
 import model.people.Citizen;
 import simulation.Address;
