@@ -41,6 +41,7 @@ loadBuildings("buildings.csv");
 loadCitizens("citizens.csv");
 loadUnits("units.csv");
 loadDisasters("disasters.csv");
+//matching citizens with buildings by location where Citizens who have same location as Citizens is added in Occupants ArrayList
 for(int i=0; i < buildings.size();i++){
 for(int j=0; j < citizens.size();j++){
 if(buildings.get(i).getLocation() == citizens.get(j).getLocation()){
