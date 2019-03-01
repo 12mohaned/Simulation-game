@@ -1,6 +1,7 @@
 package model.disasters;
 import simulation.Rescuable;
 import simulation.Simulatable;
+//Class Containing Disasters which can happens to Citizens or Buildings 
 abstract public class Disaster implements Simulatable{
 private int startCycle;
 private Rescuable target;
