@@ -3,7 +3,8 @@ import simulation.Address;
 import simulation.Rescuable;
 import simulation.Simulatable;
 abstract public class Unit implements Simulatable{
-private String unitID;
+//super class which represent units which rescue citizens and Buildings
+    private String unitID;
 private UnitState state;
 private Address location;
 private Rescuable target;
