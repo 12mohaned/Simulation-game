@@ -1,4 +1,4 @@
 package model.people;
 public enum CitizenState {
-DECEASED, RESCUED, INTROUBLE ,SAFE;
+DECEASED, RESCUED, IN_TROUBLE ,SAFE;
 }
