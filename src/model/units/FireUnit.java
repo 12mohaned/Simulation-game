@@ -1,10 +1,13 @@
 package model.units;
 
+import model.events.WorldListener;
 import simulation.Address;
 
-abstract public class FireUnit extends Unit {
-public FireUnit(String id, Address location, int stepsPerCycle){
-super (id ,location,stepsPerCycle);
-	 }
+
+public abstract class FireUnit extends Unit {
+
+	public FireUnit(String unitID, Address location, int stepsPerCycle,WorldListener worldListener) {
+		super(unitID, location, stepsPerCycle,worldListener);
+	}
 
 }
